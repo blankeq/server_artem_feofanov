@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: white;
+}
+h1 {
+    margin-bottom: 20px;
+    font-style: italic;
+}
+.calc {
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: white;
+    width: 300px;
+}
+.field {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    text-align: right;
+    padding: 5px;
+    font-size: 24px;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.button-box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+button {
+    height: 50px;
+    font-size: 18px;
+    border: 1px solid ghostwhite;
+    border-radius: 3px;
+    background-color: white;
+    cursor: pointer;
+}
+.func {
+    background-color: white;
+}
+.equal {
+    background-color: green;
+    color: white;
+    border-color: green;
+}
+.clear {
+    background-color: green;
+    color: white;
+    border-color: green;
+}
+.zero {
+    grid-column: span 4;
+}
