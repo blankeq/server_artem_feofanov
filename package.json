@@ -1,0 +1,14 @@
+{
+  "name": "server_artem_feofanov",
+  "version": "1.0.0",
+  "description": "Проект сервера студента 231 группы (2 подгруппа) Феофанова Артема",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
