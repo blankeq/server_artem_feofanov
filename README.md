@@ -11,11 +11,11 @@
 ```bash
   cd "Путь к папке"\server_artem_feofanov
 ```
-Инициализируем npm и устанавливаем express    
+Инициализируем npm и устанавливаем зависимости    
 
 ```bash
   npm init
-  npm install express
+  npm install
 ```
 
 Запускаем сервер
