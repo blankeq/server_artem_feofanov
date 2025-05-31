@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const name = document.getElementById('nameContainer');
+    const box = document.getElementById('nameContainer');
+    const name = document.createElement('h1');
     name.textContent = "Феофанов Артем, 231 группа (2 подгруппа)";
+    box.appendChild(name);
 })
 
 const button1 = document.getElementById('btn1');
