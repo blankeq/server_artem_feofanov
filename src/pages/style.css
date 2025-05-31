@@ -8,6 +8,7 @@ body {
     font-size: 24px;
     margin-bottom: 30px;
     font-weight: bold;
+    color: purple;
 }
 .buttons-container {
     display: flex;
@@ -17,7 +18,7 @@ body {
 }
 .action-button {
     padding: 12px 20px;
-    background-color: #4CAF50;
+    background-color: green;
     color: white;
     border: none;
     border-radius: 4px;
