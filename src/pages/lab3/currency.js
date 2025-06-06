@@ -1,3 +1,4 @@
+console.log(1)
 const show = async() => {
     await fetch('https://www.cbr-xml-daily.ru/daily_json.js')
     .then((req) => { return req.json(); })
@@ -22,3 +23,4 @@ const show = async() => {
     await show();
 })()
 
+console.log(2)
