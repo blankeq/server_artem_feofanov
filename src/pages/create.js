@@ -14,3 +14,8 @@ const button2 = document.getElementById('btn2');
 button2.addEventListener('click', () => {
         window.location.href = '/lab2';
 })
+
+const button3 = document.getElementById('btn3');
+button3.addEventListener('click', () => {
+        window.location.href = '/lab3';
+})
